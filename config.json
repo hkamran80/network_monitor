@@ -1,0 +1,23 @@
+{
+    "timeout": 5,
+    "packet_count": 2,
+    "public_ip": {
+        "print": true,
+        "server": "https://api.ipify.org?format=json",
+        "json_key": "ip"
+    },
+    "head_requests": true,
+    "ping_requests": true,
+    "sites": {
+        "Apple": "https://www.apple.com",
+        "Bing": "https://www.bing.com",
+        "GitHub": "https://github.com",
+        "Google": "https://www.google.com"
+    },
+    "ping_servers": {
+        "Cloudflare DNS A": "1.1.1.1",
+        "Cloudflare DNS B": "1.0.0.1",
+        "Google Public DNS A": "8.8.8.8",
+        "Google Public DNS B": "8.8.4.4"
+    }
+}
